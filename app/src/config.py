@@ -2,7 +2,8 @@ import yaml
 import dotenv
 from pathlib import Path
 
-config_dir = Path(__file__).parent.parent.resolve() / "config"
+config_dir = Path(__file__).resolve().parents[1] / "config"
+print("config_dir", config_dir)
 
 
 # load yaml config
