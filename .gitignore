@@ -133,7 +133,8 @@ dmypy.json
 .pyre/
 
 # Custom
-/app/src/fasstext_90_recall_last.bin 
+/app/src/fasstext_90_recall_last.bin
+/app/config/config.yml
 config/config.yml
 config/config.env
 app/db/config.json
