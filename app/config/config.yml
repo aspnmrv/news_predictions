@@ -1,0 +1,2 @@
+CLASSIFICATOR_MODEL_RU: "fasstext_90_recall_last.bin"
+SUMMARIZE_MODEL_RU: "IlyaGusev/mbart_ru_sum_gazeta"
