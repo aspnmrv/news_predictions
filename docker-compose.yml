@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  flask_app:
+    restart: always
+    build: ./app
+    ports:
+      - "4444:4444"
+    command: gunicorn -w 1 -b 0.0.0.0:4444 wsgi:app --timeout 120
+
+  nginx:
+    container_name: nginx
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - flask_app
+
