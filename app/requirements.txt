@@ -4,3 +4,5 @@ Flask==2.3.2
 gunicorn==20.1.0
 torch==2.0.1
 bert-extractive-summarizer==0.10.1
+sentencepiece==0.1.99
+python-dotenv==0.21.1
