@@ -135,6 +135,7 @@ dmypy.json
 # Custom
 /app/src/fasstext_90_recall_last.bin
 /app/config/config.yml
+/app/src/config.yml
 config/config.yml
 config/config.env
 app/db/config.json
