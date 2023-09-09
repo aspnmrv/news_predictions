@@ -42,6 +42,19 @@ docker-compose up --build -d
 
 Run main file news_predictions/app/src/wsgi.py => python3 main.py
 
+### Using handlers
+
+It is possible to use only Russian text for models.
+
+- classification
+  ```
+  curl -i -H "Content-Type: application/json" -X POST -d '{"news": ["какая-то первая новость", "какая-то вторая новость"]}' http://localhost:5000/predict
+  ```
+- summarization
+  ```
+  curl -i -H "Content-Type: application/json" -X POST -d ‘{“text: “текст для суммаризации”}’ http://localhost:5000/summary_v2
+  ```
+
 ## Authors
 
 Contributors names and contact info
