@@ -16,7 +16,7 @@ The application is used to operate another application - a telegram [bot](https:
 This project is a modular bot, made using Python 3 and the following:
 
 - [FastText](https://fasttext.cc/docs/en/python-module.html)
-- Pre-trained model [mbart_ru_sun_gazeta](https://huggingface.co/IlyaGusev/mbart_ru_sum_gazeta)
+- Pre-trained model [mbart_ru_sum_gazeta](https://huggingface.co/IlyaGusev/mbart_ru_sum_gazeta)
 - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
 
 
