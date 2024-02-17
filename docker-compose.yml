@@ -4,6 +4,8 @@ services:
   flask_app:
     restart: always
     build: ./app
+    volumes:
+      - ./app/config:/config
     ports:
       - "4444:4444"
     command: gunicorn -w 1 -b 0.0.0.0:4444 wsgi:app --timeout 120
