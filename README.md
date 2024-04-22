@@ -48,11 +48,11 @@ It is possible to use only Russian text for models.
 
 - classification
   ```
-  curl -i -H "Content-Type: application/json" -X POST -d '{"news": ["какая-то первая новость", "какая-то вторая новость"]}' http://localhost:5000/predict
+  curl -i -H "Content-Type: application/json" -X POST -d '{"news": ["какая-то первая новость", "какая-то вторая новость"]}' http://localhost:4444/predict
   ```
 - summarization
   ```
-  curl -i -H "Content-Type: application/json" -X POST -d ‘{“text: “текст для суммаризации”}’ http://localhost:5000/summary_v2
+  curl -i -H "Content-Type: application/json" -X POST -d ‘{“text": “текст для суммаризации”}’ http://localhost:4444/summary_v2
   ```
 
 ## Authors
